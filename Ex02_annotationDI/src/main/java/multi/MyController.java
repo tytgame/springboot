@@ -17,6 +17,8 @@ public class MyController {
 	 * root() { // @ResponseBody : html이 아닌 일반 문자를 반환할 때 return "Annotation 사용하기"; }
 	 * 임포트 안되는 이유는 프로젝트 만들때 와르로 안만들고 자르로 만들어서 그런것 같음 LSP 오류는 둘다 뜨는데 찾아봐야함
 	 */
+	
+//	@RequestMapping("/")
 
 	@Autowired
 	Person Person1;
